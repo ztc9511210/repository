@@ -1,0 +1,12 @@
+1 添加依赖
+<!--加密使用-->
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>1.14</version>
+        </dependency>
+
+2 配置文件
+jasypt:
+    encryptor:
+        password: txypt
